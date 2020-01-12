@@ -54,9 +54,9 @@ while True:
 """)
 
 file_create.close()
-print("Creating Exe File....")
-time.sleep(3)
-os.system(f"pyinstaller --onefile -w {file_create}")
+
+
+
 
 host = choose_host
 port = choose_port
